@@ -10,8 +10,8 @@ class Program
 {
     static void Main()
     {
-        string pasta = @"G:\Downloads";   // insert folder location | insira diretorio da pasta
-        string textoProcurado = "1164689"; // insert keyword you're looking for | insira a palavra chave que está procurando
+        string pasta = @"C:\Folder";   // insert folder location | insira diretorio da pasta
+        string textoProcurado = "Keyword"; // insert keyword you're looking for | insira a palavra chave que está procurando
 
         foreach (string arquivo in Directory.GetFiles(pasta))
         {
@@ -81,3 +81,4 @@ class Program
         return texto.ToString();
     }
 }
+
